@@ -11,14 +11,13 @@ stages:
         command: status
         cmdArgs: {verbose: "true"}
 
-  Run Quality Checks:
+  DB_Deployment:
     actions:
       - type: liquibase
-        command: checks show
-        cmdArgs: {check-status: enabled, auto-update: "on"}
+        command: tag
+        cmdArgs: {tag: "${TAG}"}
       - type: liquibase
-        command: checks run
-        cmdArgs: {checks-scope: changelog, auto-update: "on"}
+        command: update
 
 ## The endStage ALWAYS RUNS. 
 endStage:

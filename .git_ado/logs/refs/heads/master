@@ -95,3 +95,12 @@ bef7fa4af87fa17c56b3fcc84a79e0c83e5b31e6 59976565fc43e23bd5a5b652f8fc65a312a77fc
 945dadf7893bc899ce0f81858995bd351f9cb943 5e8e20141720a4caa008880df8053219e10fb944 Adeel Malik <amalik@datical.com> 1722374032 -0500	commit: rollback-one-update
 5e8e20141720a4caa008880df8053219e10fb944 1412c98313774e3f786622df6d17379900d3429a Adeel Malik <amalik@datical.com> 1722627922 -0500	commit: releases
 1412c98313774e3f786622df6d17379900d3429a 0abf00a3323c1b697a283f353733e5d6ee772372 Adeel Malik <amalik@datical.com> 1722628067 -0500	commit: tags
+0abf00a3323c1b697a283f353733e5d6ee772372 d8c1f0f5297a939d144ff94d02c99f63255cbeb3 Adeel Malik <amalik@datical.com> 1722629868 -0500	commit: artifacts
+d8c1f0f5297a939d144ff94d02c99f63255cbeb3 d52def7174eb04f86799a499db30de9ec1059e06 Adeel Malik <amalik@datical.com> 1722630249 -0500	commit: few changes
+d52def7174eb04f86799a499db30de9ec1059e06 60fbdbf3fd881f2cb821eb37166c594a12a78fa9 Adeel Malik <amalik@datical.com> 1722630669 -0500	commit: flowfiles added
+60fbdbf3fd881f2cb821eb37166c594a12a78fa9 bd18d0bd95dd9fded32b9e7ccff6b315ffb9cd81 Adeel Malik <amalik@datical.com> 1722630767 -0500	commit: flowfiles added
+bd18d0bd95dd9fded32b9e7ccff6b315ffb9cd81 b755d92b9015387898fbac0b5ab7fa80780eac4d Adeel Malik <amalik@datical.com> 1722631433 -0500	commit: adding license
+b755d92b9015387898fbac0b5ab7fa80780eac4d 87eb0b0e237a359480d03c3659a1e8fcf5e056a0 Adeel Malik <amalik@datical.com> 1722631596 -0500	commit: adding license
+87eb0b0e237a359480d03c3659a1e8fcf5e056a0 b547346b8970ca5e4ff8d2eb95ee2e656ddcb2dc Adeel Malik <amalik@datical.com> 1722631650 -0500	commit: adding license
+b547346b8970ca5e4ff8d2eb95ee2e656ddcb2dc 879ea5724021d3fd80b284def97cfdbaef0b9c62 Adeel Malik <amalik@datical.com> 1722631709 -0500	commit: fixed a typo
+879ea5724021d3fd80b284def97cfdbaef0b9c62 99bafb96545441cc25e2fb27f828a48ef7022aec Adeel Malik <amalik@datical.com> 1722632029 -0500	commit: using QA

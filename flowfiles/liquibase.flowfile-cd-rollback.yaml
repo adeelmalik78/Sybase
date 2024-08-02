@@ -11,14 +11,15 @@ stages:
         command: status
         cmdArgs: {verbose: "true"}
 
-  Run Quality Checks:
+  DB_Rollback:
     actions:
       - type: liquibase
-        command: checks show
-        cmdArgs: {check-status: enabled, auto-update: "on"}
-      - type: liquibase
-        command: checks run
-        cmdArgs: {checks-scope: changelog, auto-update: "on"}
+        command: rollback
+        cmdArgs: {tag: "${TAG}"}
+      # - type: liquibase
+      #   command: rollbackOneUpdate
+      #   cmdArgs: {force: "true"}
+
 
 ## The endStage ALWAYS RUNS. 
 endStage:

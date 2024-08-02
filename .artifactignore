@@ -1,2 +1,4 @@
 azure*.yml
 **/*.md
+.git/**
+releases/**

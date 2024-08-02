@@ -61,14 +61,14 @@ stages:
           Write-Host Last exit code: $LASTEXITCODE
       env:
         TAG: ${{ parameters.TAG }}
-        LIQUIBASE_COMMAND_URL: $(DEV_URL)
-        LIQUIBASE_COMMAND_USERNAME: $(DEV_USERNAME)
-        LIQUIBASE_COMMAND_PASSWORD: $(DEV_PASSWORD)
-        LIQUIBASE_LICENSE_KEY: $(PRO_LICENSE_KEY)
+        LIQUIBASE_COMMAND_URL: $(QA_URL)
+        LIQUIBASE_COMMAND_USERNAME: $(QA_USERNAME)
+        LIQUIBASE_COMMAND_PASSWORD: $(QA_PASSWORD)
+        LIQUIBASE_LICENSE_KEY: $(LIQUIBASE_LICENSE_KEY)
 
     # Dir
     - task: PowerShell@2
-      displayName: 'Liquibase Reports'
+      displayName: 'Liquibase Reports Here'
       inputs:
         targetType: 'inline'
         script: |
@@ -89,16 +89,18 @@ stages:
     #     packagePublishDescription: 'Package published by CI job $(Build.BuildId)'
 
     # Compress files into .zip
-    - task: ArchiveFiles@2
-      displayName: Create a Zip
-      inputs:
-        rootFolderOrFile: '$(System.DefaultWorkingDirectory)'
-        includeRootFolder: true
-        archiveType: 'zip'
-        archiveFile: '$(System.DefaultWorkingDirectory)/artifacts/$(Application.Name)-$(Build.BuildId).zip'
+    # - task: ArchiveFiles@2
+    #   displayName: Create a Zip
+    #   inputs:
+    #     rootFolderOrFile: '$(System.DefaultWorkingDirectory)'
+    #     includeRootFolder: true
+    #     archiveType: 'zip'
+    #     archiveFile: '$(System.DefaultWorkingDirectory)/artifacts/$(Application.Name)-$(Build.BuildId).zip'
 
     # If using Azure Artifacts
-    - upload: $(System.DefaultWorkingDirectory)/artifacts/$(Application.Name)-$(Build.BuildId).zip
+    # - upload: $(System.DefaultWorkingDirectory)/.
+    - publish: $(System.DefaultWorkingDirectory)/.
+      displayName: Publish artifact
       artifact: $(Application.Name)
 
 
