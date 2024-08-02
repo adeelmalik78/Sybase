@@ -1,0 +1,97 @@
+0000000000000000000000000000000000000000 ded408fe237e18ff8e3f027626508a9b1088bbdf Adeel Malik <amalik@datical.com> 1721931071 -0500	commit (initial): Initial commit
+ded408fe237e18ff8e3f027626508a9b1088bbdf 14b0174978a8d5e4164f699c7b37f3174ee4c870 Adeel Malik <amalik@datical.com> 1721931303 -0500	commit: unignore files
+14b0174978a8d5e4164f699c7b37f3174ee4c870 ea6234d0473d25290f243d7d60741a2cb42693b4 Adeel Malik <amalik@datical.com> 1721931506 -0500	commit: added a release folder
+ea6234d0473d25290f243d7d60741a2cb42693b4 2d2f0e1f44ef9a4cc7fb985af6b83e117c9e5a28 Adeel Malik <amalik@datical.com> 1721946383 -0500	commit: Carmax changes
+2d2f0e1f44ef9a4cc7fb985af6b83e117c9e5a28 be03ec5a67a56ace4285526696db3514aaf44c9f Adeel Malik <amalik@datical.com> 1721946510 -0500	commit: Carmax changes
+be03ec5a67a56ace4285526696db3514aaf44c9f 8379635a7d2f5bd4a0bb32798ac624750a6f1153 Adeel Malik <amalik@datical.com> 1721946629 -0500	commit: Carmax changes
+8379635a7d2f5bd4a0bb32798ac624750a6f1153 7710b227b09f5aacf9deb1acc601f31e2060b797 Adeel Malik <amalik@datical.com> 1721949588 -0500	commit: more changes
+7710b227b09f5aacf9deb1acc601f31e2060b797 6ce6135ecc50a108768efd1a938f0163198239c7 Adeel Malik <amalik@datical.com> 1722001185 -0500	commit: back to using Windows agent
+6ce6135ecc50a108768efd1a938f0163198239c7 3c8b73cf96d78ee30c6dc1fe4633468789216f92 Adeel Malik <amalik@datical.com> 1722001644 -0500	commit: fixed the version command, also uncommented additional code
+3c8b73cf96d78ee30c6dc1fe4633468789216f92 1655d966497d955b3bc42f0e21cd3d2380c29212 Adeel Malik <amalik@datical.com> 1722001884 -0500	commit: added Pro license
+1655d966497d955b3bc42f0e21cd3d2380c29212 cdca8a4d646bb1faa7d0932a2f3bbef09b9f2d08 Adeel Malik <amalik@datical.com> 1722002021 -0500	commit: added Pro license
+cdca8a4d646bb1faa7d0932a2f3bbef09b9f2d08 73256a50baa8c47e2afd3a4d028b9c828844353d Adeel Malik <amalik@datical.com> 1722002397 -0500	commit: checks auto-update enabled
+73256a50baa8c47e2afd3a4d028b9c828844353d ddfbd8ed2116c98310c51e5dba3a60623c337377 Adeel Malik <amalik@datical.com> 1722002695 -0500	commit: enabled flowfile-ci
+ddfbd8ed2116c98310c51e5dba3a60623c337377 e5c22da597d975a02d2cef1d0b47ea989e27269e Adeel Malik <amalik@datical.com> 1722003515 -0500	commit: updated tag
+e5c22da597d975a02d2cef1d0b47ea989e27269e 2c1416a5ba8638f5255f2fa0a6e5a4e03fa781ff Adeel Malik <amalik@datical.com> 1722003523 -0500	commit: updated tag
+2c1416a5ba8638f5255f2fa0a6e5a4e03fa781ff 127a1563e253844a46e8937e0ebe3bd9e3dd7e39 Adeel Malik <amalik@datical.com> 1722004028 -0500	commit: artifact: universal package publish
+127a1563e253844a46e8937e0ebe3bd9e3dd7e39 976f82af463f087c077effd1e43357098cc5fcc3 Adeel Malik <amalik@datical.com> 1722004314 -0500	commit: artifact: universal package publish
+976f82af463f087c077effd1e43357098cc5fcc3 c4de0fd01543ebfc033d798378d3278457c5ac3c Adeel Malik <amalik@datical.com> 1722004436 -0500	commit: artifacts
+c4de0fd01543ebfc033d798378d3278457c5ac3c 59008c2635c5362f4a6fe3f3537202c108c41ea8 Adeel Malik <amalik@datical.com> 1722004491 -0500	commit: artifacts
+59008c2635c5362f4a6fe3f3537202c108c41ea8 424427352837ac61e3c6fadbdd31b25e06661340 Adeel Malik <amalik@datical.com> 1722004516 -0500	commit: artifacts
+424427352837ac61e3c6fadbdd31b25e06661340 313c023f7a2bd10dbfc26b219725931ba528be69 Adeel Malik <amalik@datical.com> 1722004527 -0500	commit: artifacts
+313c023f7a2bd10dbfc26b219725931ba528be69 3bbe9cd4aa5228d1284f056e7de6136561c4d93b Adeel Malik <amalik@datical.com> 1722004611 -0500	commit: renamed displayName to Liquibase CI
+3bbe9cd4aa5228d1284f056e7de6136561c4d93b 32828a3e3a462258669554f7d6eadbe0c8446d61 Adeel Malik <amalik@datical.com> 1722005113 -0500	commit: artifact version
+32828a3e3a462258669554f7d6eadbe0c8446d61 ed1f97a3d86c936f3efff930998017cd3dde6502 Adeel Malik <amalik@datical.com> 1722005227 -0500	commit: artifact version
+ed1f97a3d86c936f3efff930998017cd3dde6502 e15df7fc33331caedc9e66acf9a9bce1ed27fdcd Adeel Malik <amalik@datical.com> 1722005338 -0500	commit: artifact version
+e15df7fc33331caedc9e66acf9a9bce1ed27fdcd 06d108626252a4c24324d11310ecc0362d286dc8 Adeel Malik <amalik@datical.com> 1722005480 -0500	commit: artifact version
+06d108626252a4c24324d11310ecc0362d286dc8 636b86dfec0d7b975efb557d71f4ef1d37afe1c4 Adeel Malik <amalik@datical.com> 1722005594 -0500	commit: artifact version
+636b86dfec0d7b975efb557d71f4ef1d37afe1c4 1ac36a54a90dd1e9541a8f03068d8a0bccc2f9bd Adeel Malik <amalik@datical.com> 1722005770 -0500	commit: artifact version
+1ac36a54a90dd1e9541a8f03068d8a0bccc2f9bd b191bd0d6e5da40ae668b04140444461d8212641 Adeel Malik <amalik@datical.com> 1722005790 -0500	commit: artifact version
+b191bd0d6e5da40ae668b04140444461d8212641 a42cbb497829ee0afe550d63a13967cc1cda9b46 Adeel Malik <amalik@datical.com> 1722005884 -0500	commit: checks updated to 4.29.0
+a42cbb497829ee0afe550d63a13967cc1cda9b46 2113e335831a297b54b7781e97eb2785c2dc0134 Adeel Malik <amalik@datical.com> 1722010547 -0500	commit: commented out liquibase to test artifacts
+2113e335831a297b54b7781e97eb2785c2dc0134 3f41be97f1aa474504c33a110cff7813ff84a126 Adeel Malik <amalik@datical.com> 1722010972 -0500	commit: commented out liquibase to test artifacts
+3f41be97f1aa474504c33a110cff7813ff84a126 c21fed5494c702d01374712312938c726462263c Adeel Malik <amalik@datical.com> 1722011190 -0500	commit: uncommented Liquibase to work with artifact
+c21fed5494c702d01374712312938c726462263c 19e029fc896629d8f39669d401e587a02ce10199 Adeel Malik <amalik@datical.com> 1722011270 -0500	commit: uncommented Liquibase to work with artifact
+19e029fc896629d8f39669d401e587a02ce10199 59657cf75f4202ed6b95554335cd1c2e4394bd42 Adeel Malik <amalik@datical.com> 1722011429 -0500	commit: uncommented Liquibase to work with artifact
+59657cf75f4202ed6b95554335cd1c2e4394bd42 b8b995dae57028b310d42a7f56056120d7342208 Adeel Malik <amalik@datical.com> 1722016392 -0500	commit: another artifacts approach
+b8b995dae57028b310d42a7f56056120d7342208 bf92ea5be0380c802f92c3137279f12025166474 Adeel Malik <amalik@datical.com> 1722017151 -0500	commit: create a zip and upload
+bf92ea5be0380c802f92c3137279f12025166474 8edb04152f2e4b7aa5293fe4b18674f6f7718b45 Adeel Malik <amalik@datical.com> 1722017268 -0500	commit: create a zip and upload
+8edb04152f2e4b7aa5293fe4b18674f6f7718b45 1f2facc05dc0da38039142613e217ffaf97dfc5d Adeel Malik <amalik@datical.com> 1722017492 -0500	commit: create a zip and upload
+1f2facc05dc0da38039142613e217ffaf97dfc5d 20a3fefe1526cdc152cf00bb4eea3975938a7f7d Adeel Malik <amalik@datical.com> 1722017506 -0500	commit: create a zip and upload
+20a3fefe1526cdc152cf00bb4eea3975938a7f7d d997c8a81c51e1fdba5634260c7ab66dba64cf6b Adeel Malik <amalik@datical.com> 1722019101 -0500	commit: .artifactsignore
+d997c8a81c51e1fdba5634260c7ab66dba64cf6b ad8879f9c050c2f131a81ceabd2987dcb03aacd7 Adeel Malik <amalik@datical.com> 1722019743 -0500	commit: download artifact
+ad8879f9c050c2f131a81ceabd2987dcb03aacd7 0e6d22d6f22e2bcd7d60110ccb2959f112796aa9 Adeel Malik <amalik@datical.com> 1722020078 -0500	commit: download artifact
+0e6d22d6f22e2bcd7d60110ccb2959f112796aa9 528dfb510f62802faf3de2362764eee51df61025 Adeel Malik <amalik@datical.com> 1722020305 -0500	commit: download artifact
+528dfb510f62802faf3de2362764eee51df61025 be52a0673a215d5a7057d552323dabd66ced9c0c Adeel Malik <amalik@datical.com> 1722020433 -0500	commit: changed from UAT to QA
+be52a0673a215d5a7057d552323dabd66ced9c0c c9aff7b904bd6d0ad38d64a4683cbf16bf319539 Adeel Malik <amalik@datical.com> 1722285050 -0500	commit: custom
+c9aff7b904bd6d0ad38d64a4683cbf16bf319539 06ffb6d19904a448b48cca489b78e5d4316c445c Adeel Malik <amalik@datical.com> 1722285156 -0500	commit: custom
+06ffb6d19904a448b48cca489b78e5d4316c445c 961394c53a0306bc14b2546846a3fdfc10ce8f0f Adeel Malik <amalik@datical.com> 1722285214 -0500	commit: custom
+961394c53a0306bc14b2546846a3fdfc10ce8f0f 9ed627e6b441811d61e471f59983f8596a2f1124 Adeel Malik <amalik@datical.com> 1722285412 -0500	commit: undo custom
+9ed627e6b441811d61e471f59983f8596a2f1124 4061069a237bf33dc426113fbe03b729a04c1fb7 Adeel Malik <amalik@datical.com> 1722285795 -0500	commit: qa pipeline
+4061069a237bf33dc426113fbe03b729a04c1fb7 6529c20c24f6fbc92b3b1222912282d52785c741 Adeel Malik <amalik@datical.com> 1722286112 -0500	commit: qa pipeline
+6529c20c24f6fbc92b3b1222912282d52785c741 d5bf34794882f3c199c3ba9a2751bd320c4e5e61 Adeel Malik <amalik@datical.com> 1722286226 -0500	commit: qa pipeline
+d5bf34794882f3c199c3ba9a2751bd320c4e5e61 71e1e241853e9761e815a02b07935c18e1563f9c Adeel Malik <amalik@datical.com> 1722286893 -0500	commit: qa pipeline
+71e1e241853e9761e815a02b07935c18e1563f9c 44c26fe3331ff9a5927b173ee9baba80c742693d Adeel Malik <amalik@datical.com> 1722286955 -0500	commit: qa pipeline
+44c26fe3331ff9a5927b173ee9baba80c742693d 52aebb015205ee89012b2b7dec632f541a3a8cc3 Adeel Malik <amalik@datical.com> 1722287138 -0500	commit: qa pipeline
+52aebb015205ee89012b2b7dec632f541a3a8cc3 522bad20a709bb4189f1ee5873c9dd923b0aea9b Adeel Malik <amalik@datical.com> 1722287259 -0500	commit: qa pipeline
+522bad20a709bb4189f1ee5873c9dd923b0aea9b 0b9e7f394f0402049d1ec9090dbf655b5c4913fe Adeel Malik <amalik@datical.com> 1722287364 -0500	commit: qa pipeline
+0b9e7f394f0402049d1ec9090dbf655b5c4913fe 09916694a3f7fed48b5929b1c1deed310c8e66bc Adeel Malik <amalik@datical.com> 1722287452 -0500	commit: qa pipeline
+09916694a3f7fed48b5929b1c1deed310c8e66bc afd8a3dd8b7ca9a262de7bddc14ae03465f982eb Adeel Malik <amalik@datical.com> 1722287643 -0500	commit: qa pipeline
+afd8a3dd8b7ca9a262de7bddc14ae03465f982eb fc5d9c244f6abe2679c696898d99b88c140c3292 Adeel Malik <amalik@datical.com> 1722287818 -0500	commit: qa pipeline
+fc5d9c244f6abe2679c696898d99b88c140c3292 62e9029be275b1e0ba124502c39ea75bae3c311c Adeel Malik <amalik@datical.com> 1722288084 -0500	commit: qa pipeline
+62e9029be275b1e0ba124502c39ea75bae3c311c ba46c82fa6b575a9a7af5b6fdd7e77d7d3cc1b9e Adeel Malik <amalik@datical.com> 1722288188 -0500	commit: qa pipeline
+ba46c82fa6b575a9a7af5b6fdd7e77d7d3cc1b9e 3af6bc7f7370dcf39eb518ef3b44368b0c9e261d Adeel Malik <amalik@datical.com> 1722288292 -0500	commit: qa pipeline
+3af6bc7f7370dcf39eb518ef3b44368b0c9e261d fb738d37e71d092e4844da1a6ba4c8182e2ea307 Adeel Malik <amalik@datical.com> 1722288329 -0500	commit: qa pipeline
+fb738d37e71d092e4844da1a6ba4c8182e2ea307 dc0b9857d76f18774b24f71cb354736a22ddd62a Adeel Malik <amalik@datical.com> 1722288414 -0500	commit: qa pipeline
+dc0b9857d76f18774b24f71cb354736a22ddd62a d926bdbf8e06dcb9e9812b17e2b90aa09c5e9ccc Adeel Malik <amalik@datical.com> 1722288686 -0500	commit: qa pipeline
+d926bdbf8e06dcb9e9812b17e2b90aa09c5e9ccc 2ccc0ef55929bdd3f7acdca4ddca83d184960a30 Adeel Malik <amalik@datical.com> 1722288879 -0500	commit: qa pipeline
+2ccc0ef55929bdd3f7acdca4ddca83d184960a30 26ea63efff5419d99c8aa04a5475127c9f8a02a4 Adeel Malik <amalik@datical.com> 1722288955 -0500	commit: qa pipeline
+26ea63efff5419d99c8aa04a5475127c9f8a02a4 96f40084a2c1e1cbaab54c8939d594c4f1d1280f Adeel Malik <amalik@datical.com> 1722288993 -0500	commit: qa pipeline
+96f40084a2c1e1cbaab54c8939d594c4f1d1280f 42789d8ef81f80f3b47194e2dcb40eac903e643f Adeel Malik <amalik@datical.com> 1722289136 -0500	commit: updated artifactignore
+42789d8ef81f80f3b47194e2dcb40eac903e643f 4df3751e74ff3fb6ebdfbcb70198ad535eefc65f Adeel Malik <amalik@datical.com> 1722289168 -0500	commit: updated artifactignore
+4df3751e74ff3fb6ebdfbcb70198ad535eefc65f b7e4506b757f1ee65fd9e10e0d131920468c0976 Adeel Malik <amalik@datical.com> 1722289753 -0500	commit: updated artifactignore
+b7e4506b757f1ee65fd9e10e0d131920468c0976 589f2a18701fec462d7e0f513c986b7eaba12bf2 Adeel Malik <amalik@datical.com> 1722289854 -0500	commit: updated artifactignore
+589f2a18701fec462d7e0f513c986b7eaba12bf2 34a9f38bb26c9fc9450dea0772d593439930c748 Adeel Malik <amalik@datical.com> 1722290111 -0500	commit: updated artifactignore
+34a9f38bb26c9fc9450dea0772d593439930c748 00d4580f9cb1ffe7ec1839169e24cfdfa50ba74d Adeel Malik <amalik@datical.com> 1722290166 -0500	commit: updated artifactignore
+00d4580f9cb1ffe7ec1839169e24cfdfa50ba74d 9c4fb9c7519b1ddb17741146041a0c8278312192 Adeel Malik <amalik@datical.com> 1722290239 -0500	commit: updated artifactignore
+9c4fb9c7519b1ddb17741146041a0c8278312192 9583387d0be30e01e076f56a4baf679ea504b81c Adeel Malik <amalik@datical.com> 1722290296 -0500	commit: updated artifactignore
+9583387d0be30e01e076f56a4baf679ea504b81c d2819f42b0d888e9c4ded15f841c14bbb91e5cc6 Adeel Malik <amalik@datical.com> 1722368395 -0500	commit: added a pipeline artifact to MX-CI pipeline
+d2819f42b0d888e9c4ded15f841c14bbb91e5cc6 a79bcf38eefe25a65ec676f0058009c8023cebae Adeel Malik <amalik@datical.com> 1722369072 -0500	commit: added environment: DEV to MX-CI pipeline
+a79bcf38eefe25a65ec676f0058009c8023cebae 2f7d9980df44ee5e0bea0e4a6450421c1d7fe56c Adeel Malik <amalik@datical.com> 1722369324 -0500	commit: added environment: DEV to MX-CI pipeline
+2f7d9980df44ee5e0bea0e4a6450421c1d7fe56c 112c29cb552957fb4b3187af160cd642959da65d Adeel Malik <amalik@datical.com> 1722369734 -0500	commit: updated CI flow file to run checks only
+112c29cb552957fb4b3187af160cd642959da65d dd729e86cc8f20c3055315f660f19145a6f80ea8 Adeel Malik <amalik@datical.com> 1722369823 -0500	commit: updated CI flow file to run checks only
+dd729e86cc8f20c3055315f660f19145a6f80ea8 71e07eea5d5ef5bc82e630bedd26a84c7c2296c3 Adeel Malik <amalik@datical.com> 1722370255 -0500	commit: updated CI to deploy and rollback QA
+71e07eea5d5ef5bc82e630bedd26a84c7c2296c3 83868be1a0a3a2a72426dea2d291a9986570a9a6 Adeel Malik <amalik@datical.com> 1722370316 -0500	commit: updated CI to deploy and rollback QA
+83868be1a0a3a2a72426dea2d291a9986570a9a6 dd1ccf56f3d58b00691128e0325de4171b28850a Adeel Malik <amalik@datical.com> 1722370887 -0500	commit: updated CI to include OSS commands also
+dd1ccf56f3d58b00691128e0325de4171b28850a e808066b6edaa6da2838de64f0f5c3898ae08167 Adeel Malik <amalik@datical.com> 1722370982 -0500	commit: updated CI to include OSS commands also
+e808066b6edaa6da2838de64f0f5c3898ae08167 d116cfc0fe057db6eeab3fe1bf821ab9d968a964 Adeel Malik <amalik@datical.com> 1722371238 -0500	commit: updated CI to include OSS commands also
+d116cfc0fe057db6eeab3fe1bf821ab9d968a964 7dea64b957a15edfe0c1e3e943e3f6978b3cf35c Adeel Malik <amalik@datical.com> 1722371415 -0500	commit: updated CI to include OSS commands also
+7dea64b957a15edfe0c1e3e943e3f6978b3cf35c e216d2734e2f7f6a367295c78c9f0f85745a36a5 Adeel Malik <amalik@datical.com> 1722371584 -0500	commit: disable repo checkout on update and rollback stages
+e216d2734e2f7f6a367295c78c9f0f85745a36a5 8faf8ed65ae4067187a6faf6b4fcf4ae0f42c2f9 Adeel Malik <amalik@datical.com> 1722371856 -0500	commit: added tag to update stage
+8faf8ed65ae4067187a6faf6b4fcf4ae0f42c2f9 b417a569a61830f001c7c918b2ccb0bbbe9a4d64 Adeel Malik <amalik@datical.com> 1722372245 -0500	commit: added conditions to update and rollback stages
+b417a569a61830f001c7c918b2ccb0bbbe9a4d64 bef7fa4af87fa17c56b3fcc84a79e0c83e5b31e6 Adeel Malik <amalik@datical.com> 1722372647 -0500	commit: added checks show command
+bef7fa4af87fa17c56b3fcc84a79e0c83e5b31e6 59976565fc43e23bd5a5b652f8fc65a312a77fc3 Adeel Malik <amalik@datical.com> 1722373593 -0500	commit: rollback to download artifact
+59976565fc43e23bd5a5b652f8fc65a312a77fc3 945dadf7893bc899ce0f81858995bd351f9cb943 Adeel Malik <amalik@datical.com> 1722373697 -0500	commit: rollback to download artifact
+945dadf7893bc899ce0f81858995bd351f9cb943 5e8e20141720a4caa008880df8053219e10fb944 Adeel Malik <amalik@datical.com> 1722374032 -0500	commit: rollback-one-update
+5e8e20141720a4caa008880df8053219e10fb944 1412c98313774e3f786622df6d17379900d3429a Adeel Malik <amalik@datical.com> 1722627922 -0500	commit: releases
+1412c98313774e3f786622df6d17379900d3429a 0abf00a3323c1b697a283f353733e5d6ee772372 Adeel Malik <amalik@datical.com> 1722628067 -0500	commit: tags

@@ -1,0 +1,104 @@
+parameters:
+- name: TAG
+  displayName: Specify a database tag
+  type: string
+  default: release1
+
+
+# Starter pipeline
+pr: none
+
+  # Trigger on merges to any branchs
+trigger: none
+# trigger:
+  # branches:
+    # include:
+    # - 'dev'
+    # - 'release'
+    # - 'prod'
+    # - 'AB#*'
+
+name: $(Application.Name)-$(Build.BuildId)-CI
+
+pool:
+  # name: 'Linux'
+  name: $(Agent.PoolName)
+
+variables:
+# - name: branchname
+#   value: $[replace(variables['Build.SourceBranch'], 'refs/heads/', '')]
+# - name: labels_branchname
+#   value: $[replace(variables['branchname'], '/','_')]
+- template: variables.yml
+- group: Liquibase_Variables
+
+
+stages:
+- stage: CI
+  # condition: contains(variables['Build.SourceBranch'], 'dev')
+  # condition: and(true, contains(variables['system.pullRequest.targetBranchName'], 'release'))
+  # condition: eq('${{ parameters.LBCOMMAND }}', 'update')
+  jobs:
+  # - job: 
+  #   workspace:
+  #     clean: all
+  - job: DB_CI
+    displayName: 'Database CI'
+    steps:
+
+    - task: PowerShell@2
+      displayName: 'Liquibase Flow - Run Checks'
+      inputs:
+        targetType: 'inline'
+        script: |
+          echo TAG=${env:TAG}
+          echo App.Version=$(App.Version)
+          echo Build.BuildId=$(Build.BuildId)
+
+          # This flow file runs Liquibase Quality Checks
+          # Both flow file and Quality Checks require Liquibase Pro license
+          C:\agent\_work\_tool\liquibase-4.29.0\liquibase.bat flow --flow-file=flowfiles/liquibase.flowfile-ci.yaml
+          Write-Host Last exit code: $LASTEXITCODE
+      env:
+        TAG: ${{ parameters.TAG }}
+        LIQUIBASE_COMMAND_URL: $(DEV_URL)
+        LIQUIBASE_COMMAND_USERNAME: $(DEV_USERNAME)
+        LIQUIBASE_COMMAND_PASSWORD: $(DEV_PASSWORD)
+        LIQUIBASE_LICENSE_KEY: $(PRO_LICENSE_KEY)
+
+    # Dir
+    - task: PowerShell@2
+      displayName: 'Liquibase Reports'
+      inputs:
+        targetType: 'inline'
+        script: |
+          dir 
+          cd reports
+          dir
+
+    # # Create a package
+    # - task: UniversalPackages@0.228.0
+    #   displayName: 'Publish Artifact Universal Package'
+    #   inputs:
+    #     command: publish
+    #     publishDirectory: '.'
+    #     vstsFeedPublish: 'Carmax/MX_Packages'
+    #     vstsFeedPackagePublish: 'mx-db'
+    #     # versionOption: 'custom'
+    #     # versionPublish: $(Build.BuildId)
+    #     packagePublishDescription: 'Package published by CI job $(Build.BuildId)'
+
+    # Compress files into .zip
+    - task: ArchiveFiles@2
+      displayName: Create a Zip
+      inputs:
+        rootFolderOrFile: '$(System.DefaultWorkingDirectory)'
+        includeRootFolder: true
+        archiveType: 'zip'
+        archiveFile: '$(System.DefaultWorkingDirectory)/artifacts/$(Application.Name)-$(Build.BuildId).zip'
+
+    # If using Azure Artifacts
+    - upload: $(System.DefaultWorkingDirectory)/artifacts/$(Application.Name)-$(Build.BuildId).zip
+      artifact: $(Application.Name)
+
+
